@@ -13,6 +13,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		790F9C0ED6745F3DF1F2835C /* Pods_YFTestView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF8D8145BF97F4D920D3ABC /* Pods_YFTestView_Tests.framework */; };
+		D8DC675A24CFEABB000D7A13 /* YFWhiteView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DC675924CFEABB000D7A13 /* YFWhiteView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +27,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6AF8D8145BF97F4D920D3ABC /* Pods_YFTestView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFTestView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9650A60FADB9049C99BA96CA /* YFTestView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YFTestView.podspec; path = ../YFTestView.podspec; sourceTree = "<group>"; };
+		9650A60FADB9049C99BA96CA /* YFTestView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YFTestView.podspec; path = ../YFTestView.podspec; sourceTree = "<group>"; };
 		9EF543AD5377DB1742D87E63 /* Pods-YFTestView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFTestView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YFTestView_Tests/Pods-YFTestView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDC56992349F5F9D0A1C4828 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D8DC675824CFEABB000D7A13 /* YFWhiteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFWhiteView.h; sourceTree = "<group>"; };
+		D8DC675924CFEABB000D7A13 /* YFWhiteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFWhiteView.m; sourceTree = "<group>"; };
+		DDC56992349F5F9D0A1C4828 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EA59EA9CE3AE231A4403A9AC /* Pods-YFTestView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFTestView_Tests.release.xcconfig"; path = "Target Support Files/Pods-YFTestView_Tests/Pods-YFTestView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F75AB44EDE996EA7CDB435E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F75AB44EDE996EA7CDB435E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				9650A60FADB9049C99BA96CA /* YFTestView.podspec */,
 				F75AB44EDE996EA7CDB435E1 /* README.md */,
 				DDC56992349F5F9D0A1C4828 /* LICENSE */,
+				D8DC675824CFEABB000D7A13 /* YFWhiteView.h */,
+				D8DC675924CFEABB000D7A13 /* YFWhiteView.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -114,7 +119,6 @@
 				9EF543AD5377DB1742D87E63 /* Pods-YFTestView_Tests.debug.xcconfig */,
 				EA59EA9CE3AE231A4403A9AC /* Pods-YFTestView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +164,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -237,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				D8DC675A24CFEABB000D7A13 /* YFWhiteView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
