@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+  - YFTestView (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - YFTestView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  YFTestView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  YFTestView: fcdcacdfd8e2ae0205c32636ffdf437de59bbb31
+
+PODFILE CHECKSUM: 464cdd38f81c1a8fa2f1c4ad64f2d106e0453b3c
+
+COCOAPODS: 1.9.3

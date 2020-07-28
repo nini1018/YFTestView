@@ -1,0 +1,6 @@
+framework module Pods_YFTestView_Tests {
+  umbrella header "Pods-YFTestView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

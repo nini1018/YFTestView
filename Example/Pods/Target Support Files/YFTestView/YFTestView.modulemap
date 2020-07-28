@@ -1,0 +1,6 @@
+framework module YFTestView {
+  umbrella header "YFTestView-umbrella.h"
+
+  export *
+  module * { export * }
+}
