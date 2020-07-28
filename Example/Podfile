@@ -1,0 +1,7 @@
+use_frameworks!
+target 'YFTestView_Tests' do
+  pod 'YFTestView', :path => '../'
+  
+  pod 'Specta'
+    pod 'Expecta'
+end
