@@ -10,7 +10,7 @@
 
 @implementation YFWhiteView
 
-//version 2.0.0
+//version 2.1.0
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
